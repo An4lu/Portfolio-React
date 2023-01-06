@@ -22,7 +22,7 @@ export function Card(){
                          <a href="#">
                              <div>
                              <h3>
-                                 <img src="/src/assets/svg/icons/folder.png" alt="Pasta" />
+                                 <img src="../assets/svg/icons/folder.png" alt="Pasta" />
                                  <strong>{rep.name}</strong>
                              </h3>
                          
@@ -31,13 +31,13 @@ export function Card(){
                              <div class="infos">
                                  <div class="info">
                                  <div>
-                                     <img src="/src/assets/svg/icons/star.svg" alt="Estrelas" />
+                                     <img src="../assets/svg/icons/star.svg" alt="Estrelas" />
                                      <span>{rep.stargazers_count}</span>
                                  </div>
                          
                                  <div>
                                      <img
-                                     src="/src/assets/svg/icons/git-branch.svg"
+                                     src="../assets/svg/icons/git-branch.svg"
                                      alt="Git Branch"
                                      />
                                      <span>{rep.forks}</span>

@@ -42,7 +42,7 @@ export function Home() {
 
         <div class="info" role="list">
           <div role="item" class="info__item">
-            <img src="/src/assets/svg/icons/map-pin.svg" alt="Mapa" />
+            <img src="../assets/svg/icons/map-pin.svg" alt="Mapa" />
 
             <span>{user.location}</span>
           </div>
@@ -55,7 +55,7 @@ export function Home() {
             title="Ir para o site da Lab2Dev"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/briefcase.svg" alt="Trabalho" />
+            <img src="../assets/svg/icons/briefcase.svg" alt="Trabalho" />
             <span>{user.work}</span>
           </a>
 
@@ -67,7 +67,7 @@ export function Home() {
             target="_blank"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/github.svg" alt="Github" />
+            <img src="../assets/svg/icons/github.svg" alt="Github" />
             <span>{user.login}</span>
           </a>
 
@@ -79,7 +79,7 @@ export function Home() {
             title="Ir para a página do Linkedin de Ana Luíza"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/linkedin.svg" alt="Linkedin" />
+            <img src="../assets/svg/icons/linkedin.svg" alt="Linkedin" />
             <span>ana-dourado</span>
           </a>
 
@@ -91,7 +91,7 @@ export function Home() {
             title="Enviar e-mail para Ana Luíza"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/mail.svg" alt="E-mail" />
+            <img src="../assets/svg/icons/mail.svg" alt="E-mail" />
             <span class="email">anabluoliveira@outlook.com</span>
           </a>
         </div>
