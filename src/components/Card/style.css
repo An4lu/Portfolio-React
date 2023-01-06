@@ -1,0 +1,128 @@
+.projetos__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+@media screen and (max-width: 75rem) {
+  .projetos__container {
+    grid-template-columns: 1fr;
+  }
+}
+.projetos__container > a {
+  padding: 1.25rem;
+  background-color: var(--primaria);
+  box-shadow: 0.125rem 0.125rem 0.125rem 0.063rem rgba(0, 0, 0, 0.09);
+  border-radius: 1.25rem;
+  text-decoration: none;
+  padding: 0;
+  text-align: start;
+  outline: 0.125rem solid transparent;
+  transition: outline-color 150ms ease-out;
+}
+.projetos__container > a:hover > div, .projetos__container > a:focus > div {
+  background-color: var(--primaria-hover);
+}
+.projetos__container > a:focus-visible {
+  outline-color: var(--primaria-hover-border);
+}
+.projetos__container > a > div {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  gap: 1.25rem;
+  padding: 1.875rem;
+  color: var(--contraste-alto);
+  stroke: var(--contraste-alto);
+  border-radius: inherit;
+  transition: background-color 150ms ease-out;
+}
+.projetos__container > a > div > h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.projetos__container > a > div > h3 > strong {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.projetos__container > a > div > p {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: var(--contraste);
+}
+.projetos__container > a > div > .infos {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  color: var(--contraste);
+  stroke: var(--contraste);
+}
+.projetos__container > a > div > .infos > .info {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-direction: row;
+  box-shadow: none;
+  list-style-type: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+.projetos__container > a > div > .infos > .info > div {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.projetos__container > a > div > .infos > .info > div > span {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+.projetos__container > a > div > .infos > .linguagem {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.projetos__container > a > div > .infos > .linguagem > .dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.125rem solid var(--contraste);
+}
+.projetos__container > a > div > .infos > .linguagem > .dot.javascript {
+  background-color: #2b7489;
+  border: 0.125rem solid #837E9F;
+}
+.projetos__container > a > div > .infos > .linguagem > .dot.html {
+  background-color: #E54C21;
+  border: 0.125rem solid #837E9F;
+}
+.projetos__container > a > div > .infos > .linguagem > .dot.css {
+  background-color: #0096DC;
+  border: 0.125rem solid #837E9F;
+}
+.projetos__container > a > div > .infos > .linguagem > .dot.java {
+  background-color: #E72E2C;
+  border: 0.125rem solid #837E9F;
+}
+.projetos__container > a > div > .infos > .linguagem > .dot.cplus {
+  background-color: #004283;
+  border: 0.125rem solid #837E9F;
+}
+.projetos__container > a > div > .infos > .linguagem > .dot.csharp {
+  background-color: #803789;
+  border: 0.125rem solid #837E9F;
+}
+.projetos__container > a > div > .infos > .linguagem > .dot.php {
+  background-color: #F9F9F9;
+  border: 0.125rem solid #837E9F;
+}
+.projetos__container > a > div > .infos > .linguagem > span {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}

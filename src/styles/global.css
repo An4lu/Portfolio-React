@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Merriweather Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  html {
+    cursor: url(../svg/cursor/cursor.svg), auto;
+    background-color: var(--background);
+    color: var(--contraste-alto);
+  }
+
+  a {
+    cursor: url(../svg/cursor/cursor-pointer.svg), auto;
+    text-decoration: none;
+  }
