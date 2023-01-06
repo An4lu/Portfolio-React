@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
+import folder from '/src/assets/svg/icons/folder.png';
+import star from '/src/assets/svg/icons/star.svg';
+import git from '/src/assets/svg/icons/git-branch.svg';
 
 export function Card(){
     const [rep, setRepository] = useState([]);
@@ -22,7 +25,7 @@ export function Card(){
                          <a href="#">
                              <div>
                              <h3>
-                                 <img src="/src/assets/svg/icons/folder.png" alt="Pasta" />
+                                 <img src={folder} alt="Pasta" />
                                  <strong>{rep.name}</strong>
                              </h3>
                          
@@ -31,13 +34,13 @@ export function Card(){
                              <div class="infos">
                                  <div class="info">
                                  <div>
-                                     <img src="/src/assets/svg/icons/star.svg" alt="Estrelas" />
+                                     <img src={star} alt="Estrelas" />
                                      <span>{rep.stargazers_count}</span>
                                  </div>
                          
                                  <div>
                                      <img
-                                     src="/src/assets/svg/icons/git-branch.svg"
+                                     src={git}
                                      alt="Git Branch"
                                      />
                                      <span>{rep.forks}</span>

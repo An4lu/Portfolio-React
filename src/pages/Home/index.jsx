@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
+import map from '/src/assets/svg/icons/map-pin.svg';
+import briefcase from '/src/assets/svg/icons/briefcase.svg';
+import git from '/src/assets/svg/icons/github.svg';
+import linkedin from '/src/assets/svg/icons/linkedin.svg';
+import email from '/src/assets/svg/icons/mail.svg';
 
 import { Card } from '../../components/Card/';
 
@@ -42,7 +47,7 @@ export function Home() {
 
         <div class="info" role="list">
           <div role="item" class="info__item">
-            <img src="/src/assets/svg/icons/map-pin.svg" alt="Mapa" />
+            <img src={map} />
 
             <span>{user.location}</span>
           </div>
@@ -55,7 +60,7 @@ export function Home() {
             title="Ir para o site da Lab2Dev"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/briefcase.svg" alt="Trabalho" />
+            <img src={briefcase} alt="Trabalho" />
             <span>{user.work}</span>
           </a>
 
@@ -67,7 +72,7 @@ export function Home() {
             target="_blank"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/github.svg" alt="Github" />
+            <img src={git} alt="Github" />
             <span>{user.login}</span>
           </a>
 
@@ -79,7 +84,7 @@ export function Home() {
             title="Ir para a página do Linkedin de Ana Luíza"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/linkedin.svg" alt="Linkedin" />
+            <img src={linkedin} alt="Linkedin" />
             <span>ana-dourado</span>
           </a>
 
@@ -91,7 +96,7 @@ export function Home() {
             title="Enviar e-mail para Ana Luíza"
             class="info__item"
           >
-            <img src="/src/assets/svg/icons/mail.svg" alt="E-mail" />
+            <img src={email} alt="E-mail" />
             <span class="email">anabluoliveira@outlook.com</span>
           </a>
         </div>
