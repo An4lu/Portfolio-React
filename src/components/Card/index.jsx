@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import folder from '/src/assets/svg/icons/folder.png';
-import star from '/src/assets/svg/icons/star.svg';
-import git from '/src/assets/svg/icons/git-branch.svg';
+import folder from './svg/icons/folder.png';
+import star from './svg/icons/star.svg';
+import git from './svg/icons/git-branch.svg';
 
 export function Card(){
     const [rep, setRepository] = useState([]);

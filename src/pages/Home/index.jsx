@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './styles.css';
-import map from '/src/assets/svg/icons/map-pin.svg';
-import briefcase from '/src/assets/svg/icons/briefcase.svg';
-import git from '/src/assets/svg/icons/github.svg';
-import linkedin from '/src/assets/svg/icons/linkedin.svg';
-import email from '/src/assets/svg/icons/mail.svg';
+import map from './svg/icons/map-pin.svg';
+import briefcase from './svg/icons/briefcase.svg';
+import git from './svg/icons/github.svg';
+import linkedin from './svg/icons/linkedin.svg';
+import email from './svg/icons/mail.svg';
 
 import { Card } from '../../components/Card/';
 
